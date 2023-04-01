@@ -80,8 +80,7 @@ end
 local function edit(input, instruction)
     local prompt = instruction .. " (" ..
         vim.api.nvim_buf_get_option(0, "filetype") ..
-        '). \n\n' .. input .. '\n\n. ' ..
-        "Do not return anything except the edited text."
+        '). \n\n' .. input
 
     return call_api(prompt)
 end

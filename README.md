@@ -2,6 +2,8 @@
 
 This is a simple extension to work with the [openai completions API](https://platform.openai.com/docs/api-reference/completions).
 
+![A demo using the plugin](./demo.gif)
+
 It combines your visual selection with a prompt and either performs a direct edit `:OpenAICompletionEdit` or just presents the result `:OpenAICompletion`.
 
 It requires `curl` and the env var `OPENAI_API_KEY` to be set.
