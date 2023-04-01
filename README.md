@@ -1,6 +1,6 @@
 # openai.nvim
 
-This is a simple extension to work with the [openai completions API](https://platform.openai.com/docs/api-reference/completions).
+This is my simple plugin to work with the [openai completions API](https://platform.openai.com/docs/api-reference/completions).
 
 ![A demo using the plugin](./demo.gif)
 
