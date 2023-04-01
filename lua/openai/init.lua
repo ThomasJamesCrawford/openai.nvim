@@ -148,7 +148,7 @@ vim.api.nvim_create_user_command(
         local res = edit(selection, prompt)
 
         insert_response(res)
-    end, {}
+    end, { range = true }
 )
 
 return {
